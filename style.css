@@ -18,15 +18,18 @@ body {
   display: flex;
   flex-direction: column;
 }
-/* ======================= Home Header ==================== */
+/* ======================= Header ==================== */
 header {
 	position: fixed;
+	z-index: 100;
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 80px;
   /* border: 1px solid red; */
   justify-content: center;
+	mix-blend-mode: luminosity;
+	backdrop-filter: blur(75px);
 }
 
 nav {
@@ -42,13 +45,48 @@ nav {
 
 .fifa-logo {
 	height: 50px;
-	width: 75px;
+	width: 100px;
 }
 
 .hambur-btn {
   height: 72px;
   width: 60px;
   /* border: 1px solid red; */
+}
+
+.mobile-nav-menu {
+	position: fixed;
+	display: none;
+	background-color: red;
+	width: 100%;
+	height: 100vh;
+	z-index: 200;
+	mix-blend-mode: multiply;
+	backdrop-filter: blur(20px);
+}
+
+.close-menu-btn {
+	position: absolute;
+	top: 24.5px;
+	right: 45px;
+	height: 30px;
+	width: 30px;
+}
+
+.mobile-nav-list {
+	position: absolute;
+	top: 90px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	gap: 30px;
+	padding-left: 70px;
+}
+
+.nav-listitem {
+	font-size: 40px;
+	font-weight: 800;
+	color: white;
 }
 
 /* ================================= Home Event Details Section ================================= */
@@ -237,8 +275,8 @@ nav {
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	width: 130px;
-	height: 124px;
+	width: 131px;
+	height: 121px;
 }
 
 .speaker-details {
@@ -273,6 +311,237 @@ nav {
 	align-items: center;
 	justify-content: center;
 	width: 90%;
+	font-size: 20px;
 	font-weight: 600;
 	color: #343338;
+}
+
+/* ================================== About Page =================================== */
+.about-details-section {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: center;
+	padding: 0 20px;
+	margin-top: 150px;
+}
+
+.about-details-section::before {
+	content: "";
+	background-image: url(./assets/aboutBackgroundFlipped.jpg);
+	background-size: cover;
+	opacity: 0.1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -100;
+	/* height: 1200px; */
+	/* border: 10px solid red; */
+}
+
+.about-details-headings {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	width: 100%;
+}
+
+.about-slogan {
+	font-size: 24px;
+	color: #e9532a;
+	font-weight: 600;
+}
+
+.about-details-heading {
+	font-size: 55px;
+	color: red;
+	font-weight: 900;
+	line-height: 65px;
+	text-align: center;
+}
+
+.about-details-description {
+	border: 3px solid #f4f4f4;
+	padding: 15px;
+	margin: 25px 0 0 0;
+	font-size: 20px;
+	line-height: 30px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.about-contact-details {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+}
+
+.about-contact-caption {
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.about-contact-email {
+	font-size: 22px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-underline-offset: 5px;
+}
+
+.logo-details-section {
+	margin-top: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+	background-color: white;
+	padding: 40px 30px;
+}
+
+.logo-details-heading {
+	font-size: 30px;
+	text-align: center;
+}
+
+.logo-history-description {
+	font-size: 20px;
+	text-align: center;
+}
+
+.about-fifa-logo-image {
+	width: 600px;
+	height: 300px;
+	border: 2px solid #b9b8b8;
+	margin: 20px 0;
+}
+
+hr {
+	border: 0;
+	width: 100%;
+	background-color: #423f3f;
+	height: 1px;
+}
+
+.past-events {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 35px;
+	gap: 30px;
+}
+
+.past-events-heading {
+	font-size: 30px;
+	text-align: center;
+}
+
+.past-events-description {
+	font-size: 20px;
+	text-align: center;
+}
+
+.past-events-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	gap: 20px;
+	padding: 20px;
+	/* border: 1px solid red; */
+}
+
+.fifa-events {
+	position: relative;
+	/* border: 1px solid red; */
+	width: 500px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.event-image {
+	position: absolute;
+	z-index: -1;
+	filter: saturate(200%) hue-rotate(150deg);
+	width: 100%;
+	height: 100%;
+}
+
+.event-highlights {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+
+.event-year {
+	font-size: 40px;
+	font-weight: 900;
+	color: #fff;
+}
+
+.event-location {
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.partners-section {
+	background-color: #424146;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	gap: 50px;
+}
+
+.partner-section-heading {
+	color: #fff;
+	font-size: 35px;
+}
+
+.partner-logos {
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.partner-image {
+	width: 180px;
+	height: 80px;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	padding: 50px 0;
+	/* gap: 30px; */
+	justify-content: space-evenly;
+}
+
+.fifa-footer-logo {
+	height: 150px;
+	width: 150px;
+}
+
+.footer-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+}
+
+.footer-description p {
+	font-size: 20px;
 }
