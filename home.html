@@ -14,17 +14,16 @@
     <div class="parent-body-element">
         <!-- This is a div for parent container -->
 
-        <header>
-            <nav>
-                <a href=""><img src="./assets/FIFA_logoCroppedRemovedbg.png" alt="" class="fifa-logo"></a>
+        <header class="header-mobile">
+            <nav class="nav-mobile">
+                <a href="./home.html"><img src="./assets/FIFA_logoCroppedRemovedbg.png" alt="" class="fifa-logo"></a>
                 <a href=""><img src="./assets/hamburgerMenu.svg" alt="" class="hambur-btn"></a>
             </nav>
         </header>
-
         <div class="mobile-nav-menu">
             <img src="./assets/cross.png" alt="" class="close-menu-btn">
             <ul class="mobile-nav-list">
-                <a href="" class="mobile-nav-menu-link">
+                <a href="./About.html" class="mobile-nav-menu-link">
                     <li class="nav-listitem">
                         About
                     </li>
@@ -52,9 +51,56 @@
             </ul>
         </div>
     
+        <header class="header-desktop">
+            <ul class="first-nav-desktop">
+                <li class="nav1-social">
+                    <img src="./assets/facebookDesktopNav.png" alt="" class="facebook-logo">
+                </li>
+                <li class="nav1-social">
+                    <img src="./assets/twitterDesktopNav.png" alt="" class="twitter-logo">
+                </li>
+                <li class="nav1-link">
+                    English
+                </li>
+                <li class="nav1-link">
+                    My page
+                </li>
+                <li class="nav1-link">
+                    Logout
+                </li>
+            </ul>
+            <div class="second-nav-desktop">
+                <a href="./home.html">
+                    <img src="./assets/FIFA_logoCroppedRemovedbg.png" alt="" class="second-nav-desktop-logo">
+                </a>
+                <ul class="second-nav-list">
+                    <a href="./About.html">
+                        <li class="nav2-link">
+                            About
+                        </li>
+                    </a>
+                    <li class="nav2-link">
+                        Program
+                    </li>
+                    <li class="nav2-link">
+                        Join
+                    </li>
+                    <li class="nav2-link">
+                        Sponsor
+                    </li>
+                    <li class="nav2-link">
+                        News
+                    </li>
+                    <li class="nav2-link">
+                        Credits
+                    </li>
+                </ul>
+            </div>
+        </header>
 
         <!-- ============================= Home Event Details ============================= -->
         <section class="home-event-details">
+            <!-- <img src="./assets/homeBackgroundFlipped.jpg" alt="" class="home-bg"> -->
             <div class="home-event-details-headings">
                 <h3 class="slogan">"Fair Play Spirit"</h2>
                 <h1 class="event-heading">FIFA: CELEBRATING THE GLOBAL SPORT</h1>
@@ -108,7 +154,7 @@
                 <div class="program-card">
                     <img src="./assets/football.png" alt="" class="program-card-image">
                     <h4 class="program-card-heading">
-                        Plays with the greats
+                        Play
                     </h4>
                     <p class="program-card-explanation">
                         Fulfill your dream to share the field with your stars and experience their skills live.
@@ -125,6 +171,9 @@
                 </div>
             </div>
             <button class="buy-tickets">Buy Tickets</button>
+            <p class="whole-prog">
+                SEE THE WHOLE PROGRAM
+            </p>
         </section>
 
         <section class="featured-speakers-section">
@@ -174,8 +223,30 @@
                 </div>
             </div>
             <button class="see-more">MORE<img src="./assets/drop down.png" alt="" class="down-arrow"></button>
-            <br>
         </section>
+
+        <section class="desktop-home-partners-section">
+            <h2 class="desktop-home-partner-section-heading">
+                Partner
+            </h2>
+            <div class="desktop-home-partner-logos">
+                <img src="./assets/mozilla.svg" alt="Mozilla" class="desktop-home-partner-image mozilla">
+                <img src="./assets/google.png" alt="Google" class="desktop-home-partner-image google">
+                <img src="./assets/naver.png" alt="Naver" class="desktop-home-partner-image naver">
+                <img src="./assets/daumkakao.png" alt="Dumkakao" class="desktop-home-partner-image dumkakao">
+                <img src="./assets/airbnb.png" alt="airbnb" class="desktop-home-partner-image airbnb">
+            </div>
+        </section>
+
+        <footer class="desktop-home-footer">
+            <img src="./assets/fifaFooter.png" alt="Fifa Copyright Logo" class="desktop-home-fifa-footer-logo">
+            <div class="desktop-home-footer-description">
+                <p>
+                    2023 International Federation of Association Football
+                </p>
+                <p>Some Rights Reserved</p>
+            </div>
+        </footer>
         
     </div>
 </body>

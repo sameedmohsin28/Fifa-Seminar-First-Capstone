@@ -19,7 +19,7 @@ body {
   flex-direction: column;
 }
 /* ======================= Header ==================== */
-header {
+.header-mobile {
 	position: fixed;
 	z-index: 100;
   display: flex;
@@ -32,7 +32,7 @@ header {
 	backdrop-filter: blur(75px);
 }
 
-nav {
+.nav-mobile {
   /* border: 1px solid red; */
 	display: flex;
 	flex-direction: row;
@@ -89,8 +89,14 @@ nav {
 	color: white;
 }
 
+@media (max-width: 768px) {
+	.header-desktop {
+		display: none;
+	}
+}
+
 /* ================================= Home Event Details Section ================================= */
-.home-event-details::before {
+/* .home-event-details::before {
 	content: "";
 	background-image: url(./assets/homeBackgroundFlipped.jpg);
 	background-size: cover;
@@ -101,17 +107,29 @@ nav {
 	bottom: 0;
 	left: 0;
 	z-index: -100;
-	height: 1200px;
+	/* height: fit-content; */
+	/* height: 1200px; */
 	/* border: 10px solid red; */
-}
+} */
 
 .home-event-details {
 	/* border: 1px solid red; */
-	margin-top: 125px;
-	padding-left: 20px;
+	/* margin-top: 125px; */
+	position: relative;
+	padding: 125px 0 120px 20px;
+	/* padding-left: 20px; */
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	width: 100%;
+	/* padding-bottom: 120px; */
+}
+
+.home-bg {
+	position: absolute;
+	z-index: -100;
+	opacity: 0.1;
+	height: 10000px;
 	width: 100%;
 }
 
@@ -164,8 +182,12 @@ nav {
 /* ================================= Home Main Program Section ================================= */
 .home-mainProgram-section {
 	/* border: 1px solid red; */
-	margin-top: 120px;
-	background-color: #262832;
+	/* margin-top: 120px; */
+	/* background-color: #262832; */
+	background-color: #2d2d31;
+	opacity: 1;
+	background-image: radial-gradient(circle at center center, #d9dbfd, #2d2d31), repeating-radial-gradient(circle at center center, #d9dbfd, #d9dbfd, 10px, transparent 20px, transparent 10px);
+	background-blend-mode: multiply;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -190,7 +212,7 @@ nav {
 }
 
 .program-card {
-	/* border: 1px solid red; */
+	background-color: rgba(246, 246, 246, 0.031);
 	width: 100%;
 	display: grid;
 	grid-template-columns: 11% 22% 1fr;
@@ -224,9 +246,17 @@ nav {
 	border: none;
 }
 
+@media (max-width: 768px) {
+	.whole-prog {
+		display: none;
+	}
+}
+
 /* ================================= Home Featured Speakers Section ================================= */
 .featured-speakers-section {
-	margin-top: 30px;
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
@@ -267,6 +297,8 @@ nav {
 
 .chess-image {
 	position: absolute;
+	left: 0;
+	top: 0;
 	width: 70px;
 	height: 70px;
 }
@@ -314,6 +346,13 @@ nav {
 	font-size: 20px;
 	font-weight: 600;
 	color: #343338;
+}
+
+@media (max-width: 768px) {
+	.desktop-home-partners-section,
+	.desktop-home-footer{
+		display: none;
+	}
 }
 
 /* ================================== About Page =================================== */
@@ -394,6 +433,7 @@ nav {
 	text-underline-offset: 5px;
 }
 
+/* ================================== About Page - Logo Section =================================== */
 .logo-details-section {
 	margin-top: 120px;
 	display: flex;
@@ -415,8 +455,8 @@ nav {
 }
 
 .about-fifa-logo-image {
-	width: 600px;
-	height: 300px;
+	width: 400px;
+	height: 200px;
 	border: 2px solid #b9b8b8;
 	margin: 20px 0;
 }
@@ -428,7 +468,9 @@ hr {
 	height: 1px;
 }
 
+/* ================================== About Page - Past Events =================================== */
 .past-events {
+	/* background-color: white; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -522,7 +564,8 @@ hr {
 	height: 80px;
 }
 
-footer {
+.footer-about-mobile {
+	background-color: white;
 	display: flex;
 	flex-direction: row;
 	padding: 50px 0;
@@ -544,4 +587,219 @@ footer {
 
 .footer-description p {
 	font-size: 20px;
+}
+
+/* ================================= Desktop Version -------- Home Page ================================== */
+@media (min-width: 768px) {
+	.header-mobile {
+		display: none;
+	}
+
+	.header-desktop {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	.first-nav-desktop {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		background-color: #3e3e3e;
+		align-items: center;
+		justify-content: flex-end;
+		padding: 5px 14%;
+		width: 100%;
+	}
+
+	.nav1-social {
+		position: relative;
+		top: 3px;
+	}
+
+	.nav1-link {
+		color: white;
+	}
+
+	.second-nav-desktop {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		padding: 0 14%;
+		background-color: #fff;
+	}
+
+	.second-nav-desktop-logo {
+		width: 140px;
+	}
+
+	.second-nav-list {
+		display: flex;
+		flex-direction: row;
+		gap: 9%;
+		align-items: center;
+		justify-content: flex-end;
+		/* border: 1px solid red;
+		width: ; */
+	}
+
+	.nav2-link {
+		color: #9d9d9d;
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	.nav2-link:nth-child(6) {
+		border: 3px solid rgb(255, 55, 0);
+		padding: 4px;
+	}
+
+	.home-event-details {
+		padding-left: 14%;
+		padding-right: 14%;
+	}
+
+	.home-event-details-description {
+		width: 75%;
+	}
+
+	.home-mainProgram-section {
+		gap: 40px;
+	}
+
+	.main-program-highlights {
+		flex-direction: row;
+		align-items: stretch;
+		/* border: 1px solid red; */
+
+	}
+
+	.program-card {
+		/* border: 1px solid red; */
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		justify-content: flex-start;
+		/* justify-items: flex-start; */
+		border: 1px soild white;
+		/* will come back here later */
+		height: inherit;
+		padding: 20px 1%;
+		transition: border;
+	}
+
+	.program-card:hover {
+		border: 1px solid white;
+	}
+
+	.program-card-heading,
+	.program-card-explanation {
+		text-align: center;
+	}
+
+	.buy-tickets {
+		display: none;
+	}
+
+	.whole-prog {
+		color: white;
+		font-size: 20px;
+		text-decoration: underline;
+		text-underline-offset: 5px;
+		text-decoration-thickness: 1px;
+	}
+/* 
+	.speakers-catalogue {
+		flex-direction: row;
+		padding: 0 14%;
+		gap: 4%;
+	}
+
+	.speakers-card {
+		width: 34%;
+	} */
+
+	.desktop-home-partners-section {
+		background-color: #424146;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 30px;
+		gap: 50px;
+	}
+	
+	.desktop-home-partner-section-heading {
+		color: #fff;
+		font-size: 35px;
+	}
+	
+	.desktop-home-partner-logos {
+		display: flex;
+		flex-direction: row;
+		gap: 60px;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.desktop-home-partner-image {
+		width: 180px;
+		height: 80px;
+	}
+	
+	.desktop-home-footer {
+		background-color: white;
+		display: flex;
+		flex-direction: row;
+		padding: 50px 0;
+		gap: 5%;
+		justify-content: center;
+	}
+	
+	.desktop-home-fifa-footer-logo {
+		height: 150px;
+		width: 150px;
+	}
+	
+	.desktop-home-footer-description {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 20px;
+	}
+	
+	.desktop-home-footer-description p {
+		font-size: 20px;
+	}
+
+	.about-details-section {
+		padding: 0 16%;
+	}
+
+	.logo-details-section {
+		padding: 60px 18%;
+	}
+
+	.past-events-container {
+		flex-direction: row;
+	}
+
+	.event-location {
+		text-align: center;
+	}
+
+	.past-events {
+		padding-bottom: 130px;
+	}
+
+	.past-events-container {
+		justify-content: center;
+		padding: 20px 0;
+	}
+
+	.footer-about-mobile {
+		display: none;
+	}
 }
