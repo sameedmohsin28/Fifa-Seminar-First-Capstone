@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Home - Fifa</title>
+    <title>FIFA Diversity</title>
 </head>
 <body>
     <div class="parent-body-element">
@@ -17,7 +17,7 @@
         <header class="header-mobile">
             <nav class="nav-mobile">
                 <a href="./home.html"><img src="./assets/FIFA_logoCroppedRemovedbg.png" alt="" class="fifa-logo"></a>
-                <a href=""><img src="./assets/hamburgerMenu.svg" alt="" class="hambur-btn"></a>
+                <a href="#"><img src="./assets/hamburgerMenu.svg" alt="" class="hambur-btn"></a>
             </nav>
         </header>
         <div class="mobile-nav-menu">
@@ -181,48 +181,18 @@
                 Featured Speakers
             </h2>
             <div class="speakers-catalogue">
-                <div class="speakers-card">
-                    <div class="speaker-picture-container">
-                        <img src="./assets/chesssvg.svg" alt="" class="chess-image">
-                        <img src="./assets/beckham.jpg" alt="" class="speaker-picture">
-                    </div>
-                    <div class="speaker-details">
-                        <h3 class="speaker-name">
-                            David Beckham
-                        </h3>
-                        <p class="speaker-team">
-                            England
-                        </p>
-                        <p class="speaker-dotted-line">
-                            ___
-                        </p>
-                        <p class="speaker-description">
-                            David Beckham played for England
-                        </p>
-                    </div>
-                </div>
-                <div class="speakers-card">
-                    <div class="speaker-picture-container">
-                        <img src="./assets/chesssvg.svg" alt="" class="chess-image">
-                        <img src="./assets/ronaldoCrop.jpg" alt="" class="speaker-picture">
-                    </div>
-                    <div class="speaker-details">
-                        <h3 class="speaker-name">
-                            Cristiano Ronaldo
-                        </h3>
-                        <p class="speaker-team">
-                            Portugal
-                        </p>
-                        <p class="speaker-dotted-line">
-                            ___
-                        </p>
-                        <p class="speaker-description">
-                            Ronaldo plays for Portugal
-                        </p>
-                    </div>
-                </div>
+                <!-- Programmed in app.js -->
             </div>
-            <button class="see-more">MORE<img src="./assets/drop down.png" alt="" class="down-arrow"></button>
+            <button class="see-more-and-less-button">
+                <div class="see-more-container">
+                    <span class="more-txt">MORE</span>
+                    <img src="./assets/drop down.png" alt="" class="down-arrow">
+                </div>
+                <div class="see-less-container">
+                    <span class="less-txt">LESS</span>
+                    <img src="./assets/upArrow.png" alt="" class="up-arrow">
+                </div>
+            </button>
         </section>
 
         <section class="desktop-home-partners-section">
@@ -247,7 +217,7 @@
                 <p>Some Rights Reserved</p>
             </div>
         </footer>
-        
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
