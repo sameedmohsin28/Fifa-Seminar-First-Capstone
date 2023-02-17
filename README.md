@@ -33,7 +33,7 @@
 
 # 📖 FIFA Seminar (Microverse First Capstone Project) <a name="about-project"></a>
 
-**FIFA Seminar** is a website for an arbitrary event of FIFA promoting diversity and inclusion in and through football around the world.
+**FIFA Seminar** is a website for an imaginary event of FIFA promoting diversity and inclusion in and through football around the world.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -62,7 +62,7 @@
 
 ## Video Description <a name="video-description"></a>
 
-- [Video Description Link](https://www.loom.com/share/07cc208a7c4d4159becad32c912fec0a)
+- [Video Description Link](https://www.loom.com/share/e48066d91bae49b3a73bc22511553d6a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +149,7 @@ If you like this project please give me an endorsement on LinkedIn.
 
 - **Is the event which the website is about to be held in real?**
 
-  - No! This is just an arbitrary event website made to showcase my coding skills. No such event is taking place in real. This website is not associated in any means and has nothing to do with FIFA or the entities mentioned in the website.
+  - No! This is just an imaginary event website made to showcase my coding skills. No such event is taking place in real. This website is not associated in any means and has nothing to do with FIFA or the entities mentioned in the website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
