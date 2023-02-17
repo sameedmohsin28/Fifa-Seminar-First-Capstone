@@ -113,7 +113,7 @@ You can deploy this project using GitHub Pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **A credits page might be added later to acknowledge the sources used in making this project.**
+- **A credits page might be added later to acknowledge the sources used in making this project.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +135,7 @@ If you like this project please give me an endorsement on LinkedIn.
 
 - The design template implemented in this project is designed by Cindy Shin in Behance. The template can be viewed [here](https://www.behance.net/adagio07).
 
-- The logo of this website is a property of [](FIFA.com).
+- The logo of this website is a property of [FIFA](https://www.fifa.com/).
 
 - I do not own any of the pictures used in this project. The credits of the pictures are due to the sources they have been taken from.
 
