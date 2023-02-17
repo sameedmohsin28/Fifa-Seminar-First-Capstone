@@ -61,9 +61,9 @@ const speakersDetails = [
   },
 ];
 
-const speakersCatalogue = document.querySelector('.speakers-catalogue')
+const speakersCatalogue = document.querySelector('.speakers-catalogue');
 
-for (let j = 0; j < speakersDetails.length; j++) {
+for (let j = 0; j < speakersDetails.length; j += 1) {
   speakersCatalogue.innerHTML += `
   <div class="speakers-card">
     <div class="speaker-picture-container">
@@ -77,27 +77,26 @@ for (let j = 0; j < speakersDetails.length; j++) {
       <p class="speaker-description">${speakersDetails[j].speakerDesc}</p>
     </div>
   </div>
-  `
+  `;
 }
 
 const moreLessBtn = document.querySelector('.see-more-and-less-button');
 const seeMoreCont = document.querySelector('.see-more-container');
 const seeLessCont = document.querySelector('.see-less-container');
 const hiddenSpeakers = Array.from(document.querySelectorAll('.speakers-card:nth-child(n+3)'));
-console.log(hiddenSpeakers)
 
 function toggleSpeakers() {
   if (seeMoreCont.style.display === 'flex') {
     seeMoreCont.style.display = 'none';
     seeLessCont.style.display = 'flex';
-    for (let k = 0; k < hiddenSpeakers.length; k++) {
-      hiddenSpeakers[k].style.display = 'flex'
+    for (let k = 0; k < hiddenSpeakers.length; k += 1) {
+      hiddenSpeakers[k].style.display = 'flex';
     }
   } else {
     seeMoreCont.style.display = 'flex';
     seeLessCont.style.display = 'none';
-    for (let k = 0; k < hiddenSpeakers.length; k++) {
-      hiddenSpeakers[k].style.display = 'none'
+    for (let k = 0; k < hiddenSpeakers.length; k += 1) {
+      hiddenSpeakers[k].style.display = 'none';
     }
   }
 }

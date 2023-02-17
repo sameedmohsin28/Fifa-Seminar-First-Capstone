@@ -18,6 +18,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 /* ======================= Header ==================== */
 .header-mobile {
   position: fixed;
@@ -123,7 +124,7 @@ body {
   gap: 5px;
   width: 100%;
 
-  /* This block of code has been copied from Matee Safi */
+  /* This block of code has been copied from a micronaut Matee Safi */
   color: rgba(133, 46, 46, 1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -161,7 +162,7 @@ body {
 
 .home-event-time {
   font-size: 50px;
-  font-weight:750;
+  font-weight: 750;
   color: #575757;
 }
 
@@ -352,7 +353,7 @@ body {
 
 @media (max-width: 768px) {
   .desktop-home-partners-section,
-  .desktop-home-footer{
+  .desktop-home-footer {
     display: none;
   }
 }
@@ -594,7 +595,7 @@ hr {
     flex-direction: column;
     width: 100%;
   }
-  
+
   .first-nav-desktop {
     display: flex;
     flex-direction: row;
@@ -665,7 +666,6 @@ hr {
   .main-program-highlights {
     flex-direction: row;
     align-items: stretch;
-
   }
 
   .program-card {
@@ -673,7 +673,6 @@ hr {
     flex-direction: column;
     gap: 20px;
     justify-content: flex-start;
-    border: 1px soild white;
     height: inherit;
     padding: 20px 1%;
     transition: border;
@@ -721,21 +720,21 @@ hr {
 
   .chess-image {
     position: absolute;
-    left: 100;
-    top: 0px;
+    left: 0;
+    top: 0;
     width: 61%;
     height: auto;
     opacity: 0.5;
-}
+  }
 
-.speaker-picture {
+  .speaker-picture {
     position: absolute;
     bottom: 0;
     right: 0;
     width: 88%;
     height: 91%;
     max-height: 140px;
-}
+  }
 
   .see-more-and-less-button {
     display: none;
@@ -749,12 +748,12 @@ hr {
     padding: 30px;
     gap: 50px;
   }
-  
+
   .desktop-home-partner-section-heading {
     color: #fff;
     font-size: 35px;
   }
-  
+
   .desktop-home-partner-logos {
     display: flex;
     flex-direction: row;
@@ -763,12 +762,12 @@ hr {
     justify-content: center;
     align-items: center;
   }
-  
+
   .desktop-home-partner-image {
     width: 180px;
     height: 80px;
   }
-  
+
   .desktop-home-footer {
     background-color: white;
     display: flex;
@@ -777,19 +776,19 @@ hr {
     gap: 5%;
     justify-content: center;
   }
-  
+
   .desktop-home-fifa-footer-logo {
     height: 150px;
     width: 150px;
   }
-  
+
   .desktop-home-footer-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
   }
-  
+
   .desktop-home-footer-description p {
     font-size: 20px;
   }
@@ -804,6 +803,8 @@ hr {
 
   .past-events-container {
     flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
   }
 
   .event-location {
@@ -812,11 +813,6 @@ hr {
 
   .past-events {
     padding-bottom: 130px;
-  }
-
-  .past-events-container {
-    justify-content: center;
-    padding: 20px 0;
   }
 
   .footer-about-mobile {

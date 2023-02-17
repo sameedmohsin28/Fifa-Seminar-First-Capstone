@@ -14,6 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [ Video Description Link](#video-description)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -30,9 +31,9 @@
 - [📝 License](#license)
 
 
-# 📖 [FIFA Seminar (Microverse First Capstone Project)] <a name="about-project"></a>
+# 📖 FIFA Seminar (Microverse First Capstone Project) <a name="about-project"></a>
 
-**[FIFA Seminar]** is a website for an arbitrary event of FIFA promoting diversity and inclusion in and through football around the world.
+**FIFA Seminar** is a website for an arbitrary event of FIFA promoting diversity and inclusion in and through football around the world.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -54,15 +55,20 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[This website is responsive]**
-- **[The website uses a number of JavaScript functions and events to increase its functonality]**
+- **This website is responsive**
+- **The website uses a number of JavaScript functions and events to increase its functonality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Video Description <a name="video-description"></a>
+
+- [Video Description Link](https://www.loom.com/share/07cc208a7c4d4159becad32c912fec0a)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://sameedmohsin28.github.io/Fifa-Seminar-First-Capstone/home.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,13 +86,14 @@ Install this project with WinRar.
 
 ### Usage
 
-To run the project, use VS Code Live Server plugin
+To run the project, use VS Code Live Server plugin.
 
 ### Run tests
 
 To run tests, run the following command:
 
 npx stylelint "**/*.{css,scss}"
+        
 npx eslint .
 
 ### Deployment
@@ -98,15 +105,15 @@ You can deploy this project using GitHub Pages.
 
 ## 👥 Author <a name="authors"></a>
 
-- - GitHub: [@githubhandle](https://github.com/@sameedmohsin28)
-- Twitter: [@twitterhandle](@sameedmohsin22)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sameed-mohsin-538792180/
+- GitHub: [@githubhandle](https://github.com/sameedmohsin28/)
+- Twitter: [@twitterhandle](https://twitter.com/SameedMohsin22)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sameed-mohsin-538792180/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[A credits page might be added later to acknowledge the sources used in making this project.]**
+- [ ] **A credits page might be added later to acknowledge the sources used in making this project.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +121,7 @@ You can deploy this project using GitHub Pages.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/sameedmohsin28/Fifa-Seminar-First-Capstone/issues)
+Feel free to check the [issues page](https://github.com/sameedmohsin28/Fifa-Seminar-First-Capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,23 +133,23 @@ If you like this project please give me an endorsement on LinkedIn.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Cindy Shin in Behance for their amazing template which I have implemented in my project. The template can be viewed [here](https://www.behance.net/adagio07).
+- The design template implemented in this project is designed by Cindy Shin in Behance. The template can be viewed [here](https://www.behance.net/adagio07).
 
-- I would like give the credits to FIFA.com whose logo I have used in my project.
+- The logo of this website is a property of [](FIFA.com).
 
-- I would like to give the due credits to different sources from where I have used the pictures in my project.
+- I do not own any of the pictures used in this project. The credits of the pictures are due to the sources they have been taken from.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **[Is there any back-end technology used in making this website?]**
+- **Is there any back-end technology used in making this website?**
 
-  - [No! This website is purely made with front-end technologies.]
+  - No! This website is purely made with front-end technologies.
 
-- **[Is the event which the website is about to be held in real?]**
+- **Is the event which the website is about to be held in real?**
 
-  - [No! This is just an arbitrary event website made to showcase my coding skills. No such event is taking place in real. This website is not associated in any means and has nothing to do with FIFA or the entities mentioned in the website.]
+  - No! This is just an arbitrary event website made to showcase my coding skills. No such event is taking place in real. This website is not associated in any means and has nothing to do with FIFA or the entities mentioned in the website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
