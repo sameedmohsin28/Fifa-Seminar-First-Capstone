@@ -31,7 +31,7 @@
 - [📝 License](#license)
 
 
-# 📖 FIFA Seminar (Microverse First Capstone Project) <a name="about-project"></a>
+# 📖 FIFA Seminar <a name="about-project"></a>
 
 **FIFA Seminar** is a website for an imaginary event of FIFA promoting diversity and inclusion in and through football around the world.
 
@@ -78,42 +78,47 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder through GitHub Desktop.
+Clone this repository to your desired folder:
+
+```sh
+  cd <your-prefered-folder>
+
+  git clone https://github.com/sameedmohsin28/Fifa-Seminar-First-Capstone.git
+```
 
 ### Install
 
-Install this project with WinRar.
+- Install project's packages with:
+
+```sh
+   cd Fifa-Seminar-First-Capstone
+
+  npm install or npm i
+```
 
 ### Usage
 
-To run the project, use VS Code Live Server plugin.
+To run the project, execute the following command:
 
-### Run tests
+```sh
+  open app with the live server or open the index.html file in your browser
 
-To run tests, run the following command:
-
-npx stylelint "**/*.{css,scss}"
-        
-npx eslint .
-
-### Deployment
-
-You can deploy this project using GitHub Pages.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+```
 
 
 ## 👥 Author <a name="authors"></a>
 
-- GitHub: [@githubhandle](https://github.com/sameedmohsin28/)
-- Twitter: [@twitterhandle](https://twitter.com/SameedMohsin22)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sameed-mohsin-538792180/)
+👤 **Sameed Mohsin**
+
+- GitHub: [@sameedmohsin28](https://github.com/sameedmohsin28/)
+- Twitter: [@sameedmohsin22](https://twitter.com/SameedMohsin22)
+- LinkedIn: [Sameed Mohsin](https://www.linkedin.com/in/sameed-mohsin-538792180/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **A credits page might be added later to acknowledge the sources used in making this project.**
+**A credits page might be added later to acknowledge the sources used in making this project.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

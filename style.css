@@ -81,7 +81,7 @@ body {
   padding-left: 70px;
 }
 
-.nav-listitem {
+.mobile-nav-menu-link {
   font-size: 40px;
   font-weight: 800;
   color: white;
@@ -638,7 +638,8 @@ hr {
     justify-content: flex-end;
   }
 
-  .nav2-link {
+  .nav2-link,
+  .nav2 {
     color: #9d9d9d;
     font-size: 15px;
     font-weight: 600;
